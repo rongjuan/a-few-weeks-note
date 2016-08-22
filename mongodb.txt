@@ -1,0 +1,22 @@
+查看当前所有的数据库
+show dbs;
+切换到指定数据库
+use xxx;
+向此数据库下的student集合插入一个文档
+db.student.insert({id:1,name:'zfpx'});
+查看此集合下面的所有的文档
+db.student.find();
+查看数据库的命令
+db.help();
+查看集合的命令
+db.person.help();
+insert
+如果ID相同则报主键重复错误
+save
+如果ID相同则更新原ID的文档
+
+use 201605js
+db
+show dbs
+db.student.insert{{id:1,name:'zfpx',age:1}}
+db.student.find()
